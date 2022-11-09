@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.chat-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+
+.chat-window {
+background-color: #f3d3e0;
+width: 85%;
+height: 100%;
+justify-content: space-between;
+
+}
+
+.chat-footer input {
+ 
+  width: 80%;
+  height: 25px;
+  
+}
+
+.sent-message {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 400px;
+  align-self: flex-end;
+}
+
+#time {
+  font-size: 10px;
+  color: gray;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.leave {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgba(68, 77, 147, 0.801);
+  color: aliceblue;
+  border-color: aliceblue;
+  position: fixed;
+  bottom: 0;
+}
