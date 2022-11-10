@@ -21,7 +21,7 @@ export default function LiveChat(props) {
     
   return (
     <div>
-      <h2>Live Chat</h2>
+      <h2>Sent Messages</h2>
       <div
         style={{
           overflow: "auto",
